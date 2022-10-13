@@ -21,7 +21,7 @@ class Header extends Component{
           <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
 
         </div>
-        <ul className={this.state.clicked ? 'header-menu active' :'header-menu'}>
+        <ul className='header-menu'>
             {MenuItems.map((item, index) =>{
               return(
                 <li key = {index}>
@@ -32,7 +32,7 @@ class Header extends Component{
               )
             })}
         </ul>
-      <Button>Nosotros</Button>
+      <Button onClick={this.handleClick}>Nosotros</Button>
       </nav>
     )
   }

@@ -33,15 +33,10 @@
 }
 
 .header-links:hover{
-    background-color: #77DD77;
+    background-color: #5a6579;
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
-
-.menu-icon{
-    display:none;
-}
-
 
 .header-links-mobile{
     display:none;
