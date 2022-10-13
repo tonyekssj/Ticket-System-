@@ -1,0 +1,30 @@
+.box-nosotros{
+    
+    max-width: 1200px;
+    width:100%;
+    margin:auto;
+    height: 65vh;
+    background:#fff;
+
+    position:absolute;
+    right: 0;
+    left: 0;
+    top: -100px;
+    bottom: 0;
+    margin:auto;
+
+
+   
+    
+}
+
+.nosotros-titulo{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.nosotros-titulo:hover{
+    font-weight: bold;
+    font-size: 40px;
+    transition: all 0.2s ease-in;
+}

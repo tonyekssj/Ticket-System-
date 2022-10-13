@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {MenuItems} from "./MenuItems";
 import {Button} from "../components/Button";
+import {Nosotros} from "../components/Nosotros";
 import logovware from "../images/logo-vware.png";
 
 import './Header.css';
