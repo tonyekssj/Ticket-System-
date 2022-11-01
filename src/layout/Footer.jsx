@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Button} from "../components/Button";
 import {Link} from "react-router-dom"
 
 
@@ -11,7 +12,8 @@ export default function Footer() {
       <div className='terminos__footer'>
         <p>Copyright © 2022 VWare Solutions | Todos los derechos reservados · Política de Privacidad · Aviso Legal · Cookies</p>
         <br/>
-        <Link className="header-links-nosotros" to={"/nosotros"}>Nosotros</Link>
+        <Link to={"/nosotros"} ><Button>Nosotros</Button></Link>
+        
       </div>
 
       <div className='redes__footer'>
