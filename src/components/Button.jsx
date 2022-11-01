@@ -3,6 +3,7 @@ import './Button.css'
 
 const STYLES=[
     'btn--primary',
+    'btn--red',
     'btn--outline'
 ]
 

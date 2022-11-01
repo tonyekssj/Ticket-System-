@@ -1,5 +1,6 @@
 :root{
     --primary:#77DD77;
+    --red:#e66868;
 }
 
 .btn{
@@ -19,8 +20,21 @@
 
 }
 
+.btn--red:hover{
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    background-color: #fff;
+    color: #e66868;
+    transition: 250ms;
+
+}
+
 .btn--primary{
     background-color: var(--primary);
+}
+
+.btn--red{
+    background-color: var(--red);
 }
 
 .btn--outline{

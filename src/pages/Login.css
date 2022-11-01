@@ -1,0 +1,48 @@
+.box-body{
+    
+    max-width: 400px;
+    width:100%;
+    margin:auto;
+    height: 65vh;
+    background:#fff;
+
+    position:relative;
+    right: 0;
+    left: 0;
+    top: 30px;
+    bottom: 0; 
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.body-titulo{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.correo--login{
+    padding:5px;
+}
+
+.correo--password{
+    padding:5px;
+}
+
+.boton--login{
+    padding-top :50px;
+}
+
+.body-login{
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.body-login:hover{
+    font-weight: bold;
+    font-size: 30px;
+    transition: all 0.2s ease-in;
+}
