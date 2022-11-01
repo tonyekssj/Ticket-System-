@@ -12,10 +12,6 @@
     top: 30px;
     bottom: 0;
    
-
-
-   
-    
 }
 
 .nosotros-titulo{
@@ -23,8 +19,10 @@
     font-size: 30px;
     text-align: center;
 }
+
 .nosotros-titulo:hover{
     font-weight: bold;
+    border-radius: 10px;
     font-size: 40px;
-    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-out;
 }

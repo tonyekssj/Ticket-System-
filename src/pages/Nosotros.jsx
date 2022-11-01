@@ -1,12 +1,15 @@
 import React from "react"
 import'./Nosotros.css';
 
-export const Nosotros =() =>{
 
-    return(
+export const Nosotros =() =>{
+    return(  
+    <body>
         <div className="box-nosotros">
-           <p className="nosotros-titulo">Nosotros</p>
+            <p className="nosotros-titulo">Nosotros</p>
         </div>
+    </body>
+ 
     )
 }
 

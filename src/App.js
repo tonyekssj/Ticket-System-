@@ -1,17 +1,17 @@
 import React from 'react';
 import Header from'./layout/Header';
-import Nosotros from'./components/Nosotros';
+import Footer from'./layout/Footer';
+import Rutas from './routes/Rutas';
+
 import './App.css'
 
 
 function App() {
   return (
-
     <>
     <Header/>
-    <body>
-    <Nosotros/>
-    </body>
+    <Rutas/>
+    <Footer/>
     </>
   );
 }
