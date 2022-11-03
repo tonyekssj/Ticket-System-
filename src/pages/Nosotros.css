@@ -1,5 +1,4 @@
 .box-nosotros{
-    
     max-width: 1200px;
     width:100%;
     margin:auto;
@@ -18,11 +17,33 @@
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    font-weight: bold;
 }
 
-.nosotros-titulo:hover{
-    font-weight: bold;
-    border-radius: 10px;
-    font-size: 40px;
-    transition: all 0.2s ease-out;
+
+
+.nosotros-titulo{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.texto-nosotros{
+    padding: 50px;
+    text-align: justify;
+}
+
+.table-nosotros{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 100px 0 ;    
+}
+
+.nosotros-primero{
+
+    width: 300px;
+    height: 100px;
+    text-align: justify;
+    
 }
