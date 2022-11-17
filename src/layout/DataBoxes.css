@@ -1,0 +1,61 @@
+.last-box{
+    width: 100%;
+    height: 50%;
+}
+
+.btn-pink{
+    margin-right: 10%;
+    padding: 25px 65px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(194, 85, 127);
+    color: #fff;
+    font-size: large;
+}
+
+.btn-pink:hover{
+    padding: 30px 70px;
+    transition: all 0.3s ease-out;
+    color: black;
+    transition: 250ms;
+}
+
+.btn-green{
+    margin-right: 10%;
+    padding: 25px 65px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: rgb(161, 209, 117);
+    color: #fff;
+    font-size: large;
+}
+
+.btn-green:hover{
+    padding: 30px 70px;
+    transition: all 0.3s ease-out;
+    color: black;
+    transition: 250ms;
+}
+
+.btn-blue{
+    margin-right: 10%;
+    padding: 25px 65px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: rgb(98, 216, 236);
+    color: #fff;
+    font-size: large;
+}
+
+.btn-blue:hover{
+    padding: 30px 70px;
+    transition: all 0.3s ease-out;
+    color: black;
+    transition: 250ms;
+}
