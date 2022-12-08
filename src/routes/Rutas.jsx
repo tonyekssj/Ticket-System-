@@ -11,7 +11,7 @@ import ClienteModificar from "../pages/ClienteModificar";
 export default function Rutas (){
     return(
     <Routes>
-        <Route path="/" element = {<Cliente/>}/>
+        <Route path="/" element = {<Login/>}/>
         <Route path="/nosotros" element = {<Nosotros/>}/>
         <Route path="/clienteCrear" element = {<ClienteCrear/>}/>
         <Route path="/clienteVer" element = {<ClienteVer/>}/>
